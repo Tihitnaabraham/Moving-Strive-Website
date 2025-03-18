@@ -144,7 +144,8 @@ a{
         position: relative;
         border: none;
         background-color: orange;
-        padding:3% 10% 10% 25%
+        padding:3% 10% 10% 26%;
+        margin-top: -30%;
     }
     form input {
         width: 500%;
@@ -158,6 +159,7 @@ a{
         padding: 7.45% 55px;
         width: 880px;
         height: auto;
+        margin-top: -25%;
     }
     .all-moving-type {
         display: flex;
@@ -236,7 +238,7 @@ a{
         color: rgb(247, 167, 19);
     }
     .three-images{
-        display: flex;
+        display: flex;justify-content: space-between;
         /* gap: 2.5%; */
         margin-left: 0%;
         margin-bottom: -1%;
@@ -247,13 +249,13 @@ a{
     .second-pic{
         height: 67%;
         width: 48%;
-        margin-left: 48%;
+        margin-left: %;
         backdrop-filter: blur(10px);
     }
     .third-pic{
         position: absolute;
-        top: 27%;
-        margin-left: 54%;
+        top: 30%;
+        margin-right: 45%;
         color: white;
     }
     .news-1-txt p{
