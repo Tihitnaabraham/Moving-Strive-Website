@@ -10,7 +10,7 @@
     display: flex;
     gap: 990px;
 }
-.email {
+.email{
     display: flex;
     margin-left: 10%;
     font-family: Poppins;
@@ -305,6 +305,70 @@ a{
         position: relative;
         overflow: visible;
         top:-2%
+    }
+
+    .first-pic{
+        position: relative;
+        background-image: url(image.html/6.jpg);
+        width: 350px;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pic-1{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .second-pic{
+        position: relative;
+        background-image: url(image.html/replace.jpeg);
+        width: 350px;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pic-2{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .third-pic{
+        position: relative;
+        background-image: url(image.html/8.jpeg);
+        width: 350px;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pic-3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px 10px;
+        border-radius: 5px;
     }
     
 
