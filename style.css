@@ -1,4 +1,4 @@
-#introduction{
+.intro{
     text-align: center;
     font-family: Poppins;
     border: solid 4px black;
@@ -238,26 +238,12 @@ a{
         color: rgb(247, 167, 19);
     }
     .three-images{
+        align:center;
         display: flex;justify-content: space-between;
-        /* gap: 2.5%; */
         margin-left: 0%;
         margin-bottom: -1%;
     }
-    .first-pic{
-        position: relative;
-    }
-    .second-pic{
-        height: 67%;
-        width: 48%;
-        margin-left: %;
-        backdrop-filter: blur(10px);
-    }
-    .third-pic{
-        position: absolute;
-        top: 30%;
-        margin-right: 45%;
-        color: white;
-    }
+    
     .news-1-txt p{
         color: rgb(216, 213, 213);
     }
@@ -292,7 +278,7 @@ a{
         color: white;
     }
     .helping{
-        display: flex;
+        display: flex;justify-content: space-between;
         border: none;
         padding: 4% 4%;
         background-color: rgb(255, 166, 1);
@@ -320,16 +306,6 @@ a{
         overflow: visible;
         top:-2%
     }
-    /* .triangle-up {
-        position: relative;
-        overflow: visible;
-        width: 0;
-        height: 0;
-        border-left: 25px solid transparent;
-        border-right: 25px solid transparent;
-        border-bottom: 50px solid #DFD6D6;
-    } */
-     .line{
-     }
+    
 
 
